@@ -68,8 +68,8 @@ function draw_led(circle,status){
   var radgrad = circle.createRadialGradient(width/2,height/2,0,width/2,height/2,dimension/2);
 
    if (status==0) {                   // green
-    radgrad.addColorStop(0, '#A7D30C');
-    radgrad.addColorStop(0.9, '#76923C');
+    radgrad.addColorStop(0, '#9FF79E');
+    radgrad.addColorStop(0.9, '#4AB349');
   } else if (status>0 && status <=1) {            // RED
     radgrad.addColorStop(0, '#F79422');
     radgrad.addColorStop(0.9, '#C11B17');
